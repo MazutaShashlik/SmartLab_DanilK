@@ -12,7 +12,7 @@
         android:theme="@style/Theme.SmartLab_DanilK"
         tools:targetApi="31">
         <activity
-            android:name=".Zastavka1"
+            android:name=".Zastavka"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,11 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Zastavka2"/>
-        <activity android:name=".Zastavka3"/>
         <activity android:name=".Vhod"/>
         <activity android:name=".Karta"/>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".ActPager"/>
+        <activity android:name=".Password"/>
     </application>
 
 </manifest>

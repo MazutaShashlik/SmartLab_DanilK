@@ -10,7 +10,7 @@
         android:layout_width="335dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/bg"
+        android:background="@drawable/fon"
         android:ems="10"
         android:hint="Фамилия"
 
@@ -27,7 +27,7 @@
         android:layout_width="335dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/bg"
+        android:background="@drawable/fon"
         android:ems="10"
         android:hint="Отчество"
 
@@ -45,10 +45,12 @@
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
 
-        android:background="@drawable/bg"
+        android:background="@drawable/fon"
         android:ems="10"
+        android:hint="Дата рождения"
         android:inputType="datetime"
         android:padding="10dp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
@@ -58,7 +60,7 @@
         android:layout_width="335dp"
         android:layout_height="48dp"
         android:layout_marginTop="80dp"
-        android:background="@drawable/bg"
+        android:background="@drawable/fon"
         android:ems="10"
         android:hint="Имя"
 
@@ -107,7 +109,7 @@
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/bg"
+        android:background="@drawable/fon"
         android:entries="@array/gender"
         app:layout_constraintEnd_toEndOf="@+id/editTextDate"
         app:layout_constraintStart_toStartOf="@+id/editTextDate"
@@ -124,5 +126,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="335dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#23A5FF"
+        android:letterSpacing="0"
+        android:onClick="Podt"
+        android:text="Создать"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/spinner"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="@+id/spinner"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
