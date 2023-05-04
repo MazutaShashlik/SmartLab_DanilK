@@ -15,7 +15,7 @@ public class Vhod extends AppCompatActivity {
     }
 
     public void Dalee(View view){
-        Intent intent = new Intent(Vhod.this, Karta.class);
+        Intent intent = new Intent(Vhod.this, EmailPas.class);
         startActivity(intent);
     }
 }
